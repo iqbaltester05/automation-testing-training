@@ -21,11 +21,12 @@
 [✔]prefix concepts on java
 ===========================
 
-[x]Types of operators in java
-[x]types of arithmetic operators and their programs
-[x]unary operaror types and program
-[x] relational operator types and programs
-[x]shifting operator types and programs
-[x]binary operator types and programs
-[x]logical operator types and programs
-======================================
+[✔]Types of operators in java
+[✔]types of arithmetic operators and their programs
+[✔]unary operaror types and program
+[✔] relational operator types and programs
+[✔]shifting operator types and programs
+[✔]binary operator types and programs
+[✔]logical operator types and programs
+[✔] complimentry operator
+==========================
