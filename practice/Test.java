@@ -1,35 +1,24 @@
-class Test{
+class Test extends Test2{
   Test(){
-    this(20);
-    System.out.println("non argumented running");
+    super(20);
   }
-
-  Test(int webdriver){
-    this("hello");
-     System.out.println("webriver argumented running");
-  }
-  Test(String AndroidDriver){
-    this(true,"bye");
-     System.out.println("androiddriver argumented running");
-  }
-
-  Test(boolean a, String b){
-     System.out.println("multiople argumented running");
-    
-  }
+   String c="gfdg";
   public static void main(String[] args) {
-    Test t=new Test();
+ 
+  Test t=new Test();
+    System.out.println(t.a);
+    System.out.println(t.c);
+    System.out.println("Test1 with int and int data Constructor");
   }
+
+
 }
 
-//What is a Constructor in Java?
-//Job of Constructor //predefined //userdefined
-//Types of constructor
-//Can User Call Constructor Manually?
-//Types of User-Defined Constructor
-//Parameterized Constructor
-//Can We Create Static Constructor?
-//Constructor Overloading
-//Non-Static Control Flow
-//Constructor Chaining //this and this()
-//Access Specifiers with Constructor
+class Test2{
+  
+  Test2(int y){
+    System.out.println("Test2 Constructor");
+  }
+
+  String a="abc";
+}
