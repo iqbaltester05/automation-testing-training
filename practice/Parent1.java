@@ -1,23 +1,23 @@
 class Parent1 {   // Parent class
 
-    public void m1() {
-        System.out.println("Parent method");
+    public String cook() {
+        return "chrome";
     }
 }
 
 class Child extends Parent1 {
 
     @Override
-    public void m1() {
-        System.out.println("Child method");
+    public String cook() {
+        return "edge";
     }
 
     public static void main(String[] args) {
 
         Parent1 p = new Parent1();
-        p.m1();
+        p.cook();
 
         Child c = new Child();
-        c.m1();
+        c.cook();
     }
 }
